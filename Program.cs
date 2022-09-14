@@ -34,8 +34,8 @@
                     Console.Write(random.Next(min, max));
                     break;
                 }
-                while (myInt == min || myInt < max);
-                Console.Write(" ");
+                while (myInt == min || myInt < max);   //уточнить условия
+                Console.Write(" ");                     //ищет случайное число
                 Console.Write(random.Next(min, max));
             }
             Console.ReadKey();
